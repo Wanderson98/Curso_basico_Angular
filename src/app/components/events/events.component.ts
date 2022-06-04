@@ -16,4 +16,6 @@ export class EventsComponent implements OnInit {
   showMessage():void{
     this.show = !this.show; //toggle
   }
+
+  
 }
