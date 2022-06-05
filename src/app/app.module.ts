@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
@@ -10,6 +10,7 @@ import { EventsComponent } from './components/events/events.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { ListRenerComponent } from './components/list-rener/list-rener.component';
+import { TeoWayBindingComponent } from './components/teo-way-binding/teo-way-binding.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +22,12 @@ import { ListRenerComponent } from './components/list-rener/list-rener.component
     EventsComponent,
     EmitterComponent,
     ChangeNumberComponent,
-    ListRenerComponent
+    ListRenerComponent,
+    TeoWayBindingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
