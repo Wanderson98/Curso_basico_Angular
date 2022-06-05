@@ -1,9 +1,8 @@
-<h2 >Hello World Angular</h2>
-<app-first-component></app-first-component>
-<app-parent-data [name] = "userName" [userData] = "userData"></app-parent-data>
-<app-directives></app-directives>
-<app-if-render></app-if-render>
-<app-events></app-events>
-<app-emitter></app-emitter>
-<app-list-rener></app-list-rener>
-<app-teo-way-binding></app-teo-way-binding>
+<p>Header</p>
+<nav>
+    <a routerLink="/">Home</a>
+    <a routerLink="/list">List</a>
+</nav>
+
+<router-outlet></router-outlet>
+<footer>footer</footer>
